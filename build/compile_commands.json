@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/formation/Bureau/morpion_cpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/morpion_cpp.dir/main.cpp.o -c /home/formation/Bureau/morpion_cpp/main.cpp",
+  "file": "/home/formation/Bureau/morpion_cpp/main.cpp",
+  "output": "CMakeFiles/morpion_cpp.dir/main.cpp.o"
+}
+]
