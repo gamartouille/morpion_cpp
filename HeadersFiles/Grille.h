@@ -14,6 +14,9 @@ class Grille{
      */
     ~Grille();
 
+    void ajouter_elem_bot();
+    
     private :
         int dimension;
+        int compteur_tours;
 };
