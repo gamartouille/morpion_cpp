@@ -2,7 +2,6 @@
 #include <iostream>
 #include <vector>
 #include <random>
-#include <list>
 
 Grille::Grille (int dimension) {
     this->m_dimension = dimension;
@@ -99,6 +98,37 @@ void Grille::ajouter_elem_joueur(int positionx, int positiony) {
     }
 };
 
-bool Grille::grille_remplie(){
-    
+bool Grille::grille_remplie() const {
+    for (const auto& ligne : tab)
+        for (char x : ligne)
+            if (x == '.') return false;
+    return true;
+}
+
+bool Grille::case_libre(int l, int c) const {
+    return l >= 0 && l < m_dimension && c >= 0 && c < m_dimension && tab[l][c] == '.';
+}
+
+bool Grille::poser(int l, int c, char symbole) {
+    if (!case_libre(l, c)) return false;
+    tab[l][c] = symbole;
+    return true;
+}
+
+bool Grille::victoire(char s) const {
+    const int n = m_dimension;
+    for (int i = 0; i < n; i++) {
+        bool ligne = true, col = true;
+        for (int j = 0; j < n; j++) {
+            ligne &= (tab[i][j] == s);
+            col   &= (tab[j][i] == s);
+        }
+        if (ligne || col) return true;
+    }
+    bool d1 = true, d2 = true;
+    for (int i = 0; i < n; i++) {
+        d1 &= (tab[i][i] == s);
+        d2 &= (tab[i][n - 1 - i] == s);
+    }
+    return d1 || d2;
 }

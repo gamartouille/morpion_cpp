@@ -10,5 +10,17 @@
   "command": "/usr/bin/c++  -I/home/formation/Bureau/morpion_cpp/./HeadersFiles -g -o CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o -c /home/formation/Bureau/morpion_cpp/SourceFiles/Grille.cpp",
   "file": "/home/formation/Bureau/morpion_cpp/SourceFiles/Grille.cpp",
   "output": "CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o"
+},
+{
+  "directory": "/home/formation/Bureau/morpion_cpp/build",
+  "command": "/usr/bin/c++  -I/home/formation/Bureau/morpion_cpp/./HeadersFiles -g -o CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.o -c /home/formation/Bureau/morpion_cpp/SourceFiles/Joueur.cpp",
+  "file": "/home/formation/Bureau/morpion_cpp/SourceFiles/Joueur.cpp",
+  "output": "CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.o"
+},
+{
+  "directory": "/home/formation/Bureau/morpion_cpp/build",
+  "command": "/usr/bin/c++  -I/home/formation/Bureau/morpion_cpp/./HeadersFiles -g -o CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.o -c /home/formation/Bureau/morpion_cpp/SourceFiles/Partie.cpp",
+  "file": "/home/formation/Bureau/morpion_cpp/SourceFiles/Partie.cpp",
+  "output": "CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.o"
 }
 ]

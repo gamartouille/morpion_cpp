@@ -1,7 +1,7 @@
-#include <iostream>
-#include "Grille.h"
+#include "Partie.h"
 
-int main(int, char**){
-    Grille grille(3);
-    grille.afficher_grille();
+int main() {
+    Partie partie(3);
+    partie.lancer();
+    return 0;
 }

@@ -527,6 +527,54 @@ SourceFiles/Grille.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.s
 .PHONY : SourceFiles/Grille.cpp.s
 
+SourceFiles/Joueur.o: SourceFiles/Joueur.cpp.o
+.PHONY : SourceFiles/Joueur.o
+
+# target to build an object file
+SourceFiles/Joueur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.o
+.PHONY : SourceFiles/Joueur.cpp.o
+
+SourceFiles/Joueur.i: SourceFiles/Joueur.cpp.i
+.PHONY : SourceFiles/Joueur.i
+
+# target to preprocess a source file
+SourceFiles/Joueur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.i
+.PHONY : SourceFiles/Joueur.cpp.i
+
+SourceFiles/Joueur.s: SourceFiles/Joueur.cpp.s
+.PHONY : SourceFiles/Joueur.s
+
+# target to generate assembly for a file
+SourceFiles/Joueur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.s
+.PHONY : SourceFiles/Joueur.cpp.s
+
+SourceFiles/Partie.o: SourceFiles/Partie.cpp.o
+.PHONY : SourceFiles/Partie.o
+
+# target to build an object file
+SourceFiles/Partie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.o
+.PHONY : SourceFiles/Partie.cpp.o
+
+SourceFiles/Partie.i: SourceFiles/Partie.cpp.i
+.PHONY : SourceFiles/Partie.i
+
+# target to preprocess a source file
+SourceFiles/Partie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.i
+.PHONY : SourceFiles/Partie.cpp.i
+
+SourceFiles/Partie.s: SourceFiles/Partie.cpp.s
+.PHONY : SourceFiles/Partie.s
+
+# target to generate assembly for a file
+SourceFiles/Partie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.s
+.PHONY : SourceFiles/Partie.cpp.s
+
 SourceFiles/main.o: SourceFiles/main.cpp.o
 .PHONY : SourceFiles/main.o
 
@@ -592,6 +640,12 @@ help:
 	@echo "... SourceFiles/Grille.o"
 	@echo "... SourceFiles/Grille.i"
 	@echo "... SourceFiles/Grille.s"
+	@echo "... SourceFiles/Joueur.o"
+	@echo "... SourceFiles/Joueur.i"
+	@echo "... SourceFiles/Joueur.s"
+	@echo "... SourceFiles/Partie.o"
+	@echo "... SourceFiles/Partie.i"
+	@echo "... SourceFiles/Partie.s"
 	@echo "... SourceFiles/main.o"
 	@echo "... SourceFiles/main.i"
 	@echo "... SourceFiles/main.s"

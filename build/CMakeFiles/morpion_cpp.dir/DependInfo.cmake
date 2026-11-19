@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/formation/Bureau/morpion_cpp/SourceFiles/Grille.cpp" "CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o" "gcc" "CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o.d"
+  "/home/formation/Bureau/morpion_cpp/SourceFiles/Joueur.cpp" "CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.o" "gcc" "CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.o.d"
+  "/home/formation/Bureau/morpion_cpp/SourceFiles/Partie.cpp" "CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.o" "gcc" "CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.o.d"
   "/home/formation/Bureau/morpion_cpp/SourceFiles/main.cpp" "CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o" "gcc" "CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o.d"
   )
 

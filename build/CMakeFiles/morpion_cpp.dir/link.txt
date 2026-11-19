@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o -o morpion_cpp 
+/usr/bin/c++ -g CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o CMakeFiles/morpion_cpp.dir/SourceFiles/Joueur.cpp.o CMakeFiles/morpion_cpp.dir/SourceFiles/Partie.cpp.o -o morpion_cpp 
