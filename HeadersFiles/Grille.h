@@ -22,8 +22,10 @@ class Grille{
     void ajouter_elem_bot();
     void ajouter_elem_joueur(int positionx, int positiony);
 
+    int m_compteur_tours;
+    std::vector<std::vector<char>> tab;
+
+
     private :
-        std::vector<std::vector<char>> tab;
         int m_dimension;
-        int m_compteur_tours;
 };
