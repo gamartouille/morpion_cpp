@@ -1,4 +1,5 @@
 #include <vector>
+#include <string>
 
 class Grille{
 
@@ -18,7 +19,11 @@ class Grille{
 
     void creer_grille();
     void afficher_grille();
+    std::string ajouter_elem_bot();
+    void ajouter_elem_joueur(int positionx, int positiony);
+
     private :
-        int dimension;
         std::vector<std::vector<char>> tab;
+        int m_dimension;
+        int m_compteur_tours;
 };
