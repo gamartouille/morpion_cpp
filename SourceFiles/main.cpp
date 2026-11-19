@@ -2,6 +2,6 @@
 #include "Grille.h"
 
 int main(int, char**){
-    Grille grille;
-    std::cout << "Hello, from morpion_cpp!\n";
+    Grille grille(3);
+    grille.afficher_grille();
 }
