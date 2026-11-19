@@ -21,6 +21,7 @@ class Grille{
     void afficher_grille();
     std::string ajouter_elem_bot();
     void ajouter_elem_joueur(int positionx, int positiony);
+    bool grille_remplie();
 
     private :
         std::vector<std::vector<char>> tab;

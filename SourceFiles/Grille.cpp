@@ -81,7 +81,7 @@ std::string Grille::ajouter_elem_bot() {
         std::string signe_joueur = "O";
     }
 
-    if (tab[position_x][position_y] != '.') {
+    if (tab[position_y][position_y] != '.') {
         ajouter_elem_bot();
     }
 
@@ -98,3 +98,7 @@ void Grille::ajouter_elem_joueur(int positionx, int positiony) {
 
     }
 };
+
+bool Grille::grille_remplie(){
+    
+}
