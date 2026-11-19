@@ -503,29 +503,53 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+SourceFiles/Grille.o: SourceFiles/Grille.cpp.o
+.PHONY : SourceFiles/Grille.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/main.cpp.o
-.PHONY : main.cpp.o
+SourceFiles/Grille.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o
+.PHONY : SourceFiles/Grille.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+SourceFiles/Grille.i: SourceFiles/Grille.cpp.i
+.PHONY : SourceFiles/Grille.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/main.cpp.i
-.PHONY : main.cpp.i
+SourceFiles/Grille.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.i
+.PHONY : SourceFiles/Grille.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+SourceFiles/Grille.s: SourceFiles/Grille.cpp.s
+.PHONY : SourceFiles/Grille.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/main.cpp.s
-.PHONY : main.cpp.s
+SourceFiles/Grille.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.s
+.PHONY : SourceFiles/Grille.cpp.s
+
+SourceFiles/main.o: SourceFiles/main.cpp.o
+.PHONY : SourceFiles/main.o
+
+# target to build an object file
+SourceFiles/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o
+.PHONY : SourceFiles/main.cpp.o
+
+SourceFiles/main.i: SourceFiles/main.cpp.i
+.PHONY : SourceFiles/main.i
+
+# target to preprocess a source file
+SourceFiles/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.i
+.PHONY : SourceFiles/main.cpp.i
+
+SourceFiles/main.s: SourceFiles/main.cpp.s
+.PHONY : SourceFiles/main.s
+
+# target to generate assembly for a file
+SourceFiles/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.s
+.PHONY : SourceFiles/main.cpp.s
 
 # Help Target
 help:
@@ -565,9 +589,12 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... morpion_cpp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... SourceFiles/Grille.o"
+	@echo "... SourceFiles/Grille.i"
+	@echo "... SourceFiles/Grille.s"
+	@echo "... SourceFiles/main.o"
+	@echo "... SourceFiles/main.i"
+	@echo "... SourceFiles/main.s"
 .PHONY : help
 
 

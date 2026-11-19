@@ -109,12 +109,12 @@ clean: CMakeFiles/ContinuousSubmit.dir/clean
 CMakeFiles/morpion_cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/formation/Bureau/morpion_cpp/build/CMakeFiles --progress-num=1,2 "Built target morpion_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/formation/Bureau/morpion_cpp/build/CMakeFiles --progress-num=1,2,3 "Built target morpion_cpp"
 .PHONY : CMakeFiles/morpion_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/morpion_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/formation/Bureau/morpion_cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/formation/Bureau/morpion_cpp/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/morpion_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/formation/Bureau/morpion_cpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/morpion_cpp.dir/rule

@@ -69,31 +69,47 @@ include CMakeFiles/morpion_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/morpion_cpp.dir/flags.make
 
-CMakeFiles/morpion_cpp.dir/main.cpp.o: CMakeFiles/morpion_cpp.dir/flags.make
-CMakeFiles/morpion_cpp.dir/main.cpp.o: /home/formation/Bureau/morpion_cpp/main.cpp
-CMakeFiles/morpion_cpp.dir/main.cpp.o: CMakeFiles/morpion_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/formation/Bureau/morpion_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/morpion_cpp.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/morpion_cpp.dir/main.cpp.o -MF CMakeFiles/morpion_cpp.dir/main.cpp.o.d -o CMakeFiles/morpion_cpp.dir/main.cpp.o -c /home/formation/Bureau/morpion_cpp/main.cpp
+CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o: CMakeFiles/morpion_cpp.dir/flags.make
+CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o: /home/formation/Bureau/morpion_cpp/SourceFiles/main.cpp
+CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o: CMakeFiles/morpion_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/formation/Bureau/morpion_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o -MF CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o.d -o CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o -c /home/formation/Bureau/morpion_cpp/SourceFiles/main.cpp
 
-CMakeFiles/morpion_cpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/morpion_cpp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/formation/Bureau/morpion_cpp/main.cpp > CMakeFiles/morpion_cpp.dir/main.cpp.i
+CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/formation/Bureau/morpion_cpp/SourceFiles/main.cpp > CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.i
 
-CMakeFiles/morpion_cpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/morpion_cpp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/formation/Bureau/morpion_cpp/main.cpp -o CMakeFiles/morpion_cpp.dir/main.cpp.s
+CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/formation/Bureau/morpion_cpp/SourceFiles/main.cpp -o CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.s
+
+CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o: CMakeFiles/morpion_cpp.dir/flags.make
+CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o: /home/formation/Bureau/morpion_cpp/SourceFiles/Grille.cpp
+CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o: CMakeFiles/morpion_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/formation/Bureau/morpion_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o -MF CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o.d -o CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o -c /home/formation/Bureau/morpion_cpp/SourceFiles/Grille.cpp
+
+CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/formation/Bureau/morpion_cpp/SourceFiles/Grille.cpp > CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.i
+
+CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/formation/Bureau/morpion_cpp/SourceFiles/Grille.cpp -o CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.s
 
 # Object files for target morpion_cpp
 morpion_cpp_OBJECTS = \
-"CMakeFiles/morpion_cpp.dir/main.cpp.o"
+"CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o" \
+"CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o"
 
 # External object files for target morpion_cpp
 morpion_cpp_EXTERNAL_OBJECTS =
 
-morpion_cpp: CMakeFiles/morpion_cpp.dir/main.cpp.o
+morpion_cpp: CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o
+morpion_cpp: CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o
 morpion_cpp: CMakeFiles/morpion_cpp.dir/build.make
 morpion_cpp: CMakeFiles/morpion_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/formation/Bureau/morpion_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable morpion_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/formation/Bureau/morpion_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable morpion_cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/morpion_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
