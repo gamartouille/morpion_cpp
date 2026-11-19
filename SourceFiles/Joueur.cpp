@@ -60,7 +60,7 @@ void Bot::placer_case(Grille grille) {
     }
 
     if (grille.tab[position_x][position_y] != '.') {
-        placer_case();
+        placer_case(grille);
     }
     else {
         //Insertion de la valeur de signe_joueur dans le vecteur grille
