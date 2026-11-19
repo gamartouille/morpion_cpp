@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o"
   "CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.o.d"
+  "CMakeFiles/morpion_cpp.dir/SourceFiles/Jeu.cpp.o"
+  "CMakeFiles/morpion_cpp.dir/SourceFiles/Jeu.cpp.o.d"
   "CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o"
   "CMakeFiles/morpion_cpp.dir/SourceFiles/main.cpp.o.d"
   "morpion_cpp"

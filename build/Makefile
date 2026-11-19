@@ -527,6 +527,30 @@ SourceFiles/Grille.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Grille.cpp.s
 .PHONY : SourceFiles/Grille.cpp.s
 
+SourceFiles/Jeu.o: SourceFiles/Jeu.cpp.o
+.PHONY : SourceFiles/Jeu.o
+
+# target to build an object file
+SourceFiles/Jeu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Jeu.cpp.o
+.PHONY : SourceFiles/Jeu.cpp.o
+
+SourceFiles/Jeu.i: SourceFiles/Jeu.cpp.i
+.PHONY : SourceFiles/Jeu.i
+
+# target to preprocess a source file
+SourceFiles/Jeu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Jeu.cpp.i
+.PHONY : SourceFiles/Jeu.cpp.i
+
+SourceFiles/Jeu.s: SourceFiles/Jeu.cpp.s
+.PHONY : SourceFiles/Jeu.s
+
+# target to generate assembly for a file
+SourceFiles/Jeu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion_cpp.dir/build.make CMakeFiles/morpion_cpp.dir/SourceFiles/Jeu.cpp.s
+.PHONY : SourceFiles/Jeu.cpp.s
+
 SourceFiles/main.o: SourceFiles/main.cpp.o
 .PHONY : SourceFiles/main.o
 
@@ -592,6 +616,9 @@ help:
 	@echo "... SourceFiles/Grille.o"
 	@echo "... SourceFiles/Grille.i"
 	@echo "... SourceFiles/Grille.s"
+	@echo "... SourceFiles/Jeu.o"
+	@echo "... SourceFiles/Jeu.i"
+	@echo "... SourceFiles/Jeu.s"
 	@echo "... SourceFiles/main.o"
 	@echo "... SourceFiles/main.i"
 	@echo "... SourceFiles/main.s"
